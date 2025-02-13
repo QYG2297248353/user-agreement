@@ -1,187 +1,192 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
-    <meta charset="UTF-8">
-    <title>隐私协议 - 新疆萌森软件开发工作室</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>用户隐私保护协议 - 新疆萌森软件开发工作室</title>
     <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #34495e;
-            --text-color: #4a4a4a;
-            --light-bg: #f8f9fa;
-            --border-color: #e5e7eb;
-        }
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #34495e;
+        --text-color: #4a4a4a;
+        --light-bg: #f8f9fa;
+        --border-color: #e5e7eb;
+      }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            line-height: 1.8;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f7fa;
-            color: var(--text-color);
-        }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "PingFang SC", "Microsoft YaHei", sans-serif;
+        line-height: 1.8;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f7fa;
+        color: var(--text-color);
+      }
 
+      .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 50px;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.4em;
+        margin-bottom: 20px;
+        position: relative;
+        padding-bottom: 15px;
+      }
+
+      h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background: var(--primary-color);
+      }
+
+      h2 {
+        color: var(--secondary-color);
+        font-size: 1.6em;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+        border-left: 4px solid var(--primary-color);
+      }
+
+      .section {
+        background: var(--light-bg);
+        padding: 25px;
+        margin: 25px 0;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+      }
+
+      .effective-date {
+        text-align: center;
+        font-size: 1.1em;
+        color: var(--secondary-color);
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+
+      .contact-info {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .contact-info a {
+        color: #3498db;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+
+      .contact-info a:hover {
+        color: #2980b9;
+      }
+
+      footer {
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 2px solid var(--border-color);
+        color: #666;
+        font-size: 0.9em;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
         .container {
-            max-width: 1000px;
-            margin: 40px auto;
-            background: #ffffff;
-            padding: 50px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
+          margin: 20px;
+          padding: 25px;
         }
 
         h1 {
-            color: var(--primary-color);
-            font-size: 2.4em;
-            margin-bottom: 20px;
-            position: relative;
-            padding-bottom: 15px;
-        }
-
-        h1::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background: var(--primary-color);
+          font-size: 2em;
         }
 
         h2 {
-            color: var(--secondary-color);
-            font-size: 1.6em;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            padding-left: 15px;
-            border-left: 4px solid var(--primary-color);
+          font-size: 1.4em;
         }
-
-        .section {
-            background: var(--light-bg);
-            padding: 25px;
-            margin: 25px 0;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-        }
-
-        .effective-date {
-            text-align: center;
-            font-size: 1.1em;
-            color: var(--secondary-color);
-            margin-bottom: 30px;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.8;
-            margin-bottom: 20px;
-            text-align: justify;
-        }
-
-        .contact-info {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-        }
-
-        .contact-info a {
-            color: #3498db;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .contact-info a:hover {
-            color: #2980b9;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid var(--border-color);
-            color: #666;
-            font-size: 0.9em;
-            text-align: center;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 20px;
-                padding: 25px;
-            }
-
-            h1 {
-                font-size: 2em;
-            }
-
-            h2 {
-                font-size: 1.4em;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <h1>用户隐私保护协议</h1>
-            <div class="effective-date">
-                生效日期：2024年12月25日
-            </div>
-        </div>
+      <div class="header">
+        <h1>用户隐私保护协议</h1>
+        <div class="effective-date">生效日期：2025年01月01日</div>
+      </div>
 
-        <div class="section">
-            <p>尊敬的用户：</p>
-            <p>感谢您信任并使用新疆萌森软件开发工作室（以下简称"我们"）提供的服务。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全。本协议旨在帮助您了解我们如何收集、使用和保护您的个人信息。</p>
-        </div>
+      <div class="section">
+        <p>尊敬的用户：</p>
+        <p>
+          感谢您信任并使用新疆萌森软件开发工作室（以下简称"我们"）提供的服务。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全。本协议旨在帮助您了解我们如何收集、使用和保护您的个人信息。
+        </p>
+      </div>
 
-        <h2>一、信息收集与使用</h2>
-        <div class="section">
-            <p>我们可能收集的信息包括：</p>
-            <ul>
-                <li>设备信息：设备型号、操作系统版本、设备设置等</li>
-                <li>日志信息：使用时间、使用时长、操作记录等</li>
-                <li>性能数据：软件运行状态、错误日志等</li>
-            </ul>
-            <p>这些信息仅用于：</p>
-            <ul>
-                <li>改进我们的产品和服务质量</li>
-                <li>提供更好的用户体验</li>
-                <li>进行必要的故障排查</li>
-            </ul>
-        </div>
+      <h2>一、信息收集与使用</h2>
+      <div class="section">
+        <p>我们可能收集的信息包括：</p>
+        <ul>
+          <li>设备信息：设备型号、操作系统版本、设备设置等</li>
+          <li>日志信息：使用时间、使用时长、操作记录等</li>
+          <li>性能数据：软件运行状态、错误日志等</li>
+        </ul>
+        <p>这些信息仅用于：</p>
+        <ul>
+          <li>改进我们的产品和服务质量</li>
+          <li>提供更好的用户体验</li>
+          <li>进行必要的故障排查</li>
+        </ul>
+      </div>
 
-        <h2>二、信息保护措施</h2>
-        <div class="section">
-            <p>我们采取以下措施保护您的信息：</p>
-            <ul>
-                <li>数据加密存储和传输</li>
-                <li>严格的访问控制和权限管理</li>
-                <li>定期安全审计和风险评估</li>
-            </ul>
-        </div>
+      <h2>二、信息保护措施</h2>
+      <div class="section">
+        <p>我们采取以下措施保护您的信息：</p>
+        <ul>
+          <li>数据加密存储和传输</li>
+          <li>严格的访问控制和权限管理</li>
+          <li>定期安全审计和风险评估</li>
+        </ul>
+      </div>
 
-        <h2>三、联系我们</h2>
-        <div class="contact-info">
-            <p>如果您对本隐私协议有任何疑问、意见或建议，欢迎通过以下方式与我们联系：</p>
-            <p>📧 电子邮箱：<a href="mailto:support@lifebus.top">support@lifebus.top</a></p>
-            <p>⏰ 服务时间：周一至周五 10:00-19:00（节假日除外）</p>
-        </div>
+      <h2>三、联系我们</h2>
+      <div class="contact-info">
+        <p>
+          如果您对本隐私协议有任何疑问、意见或建议，欢迎通过以下方式与我们联系：
+        </p>
+        <p>
+          📧 电子邮箱：<a href="mailto:support@lifebus.top"
+            >support@lifebus.top</a
+          >
+        </p>
+        <p>⏰ 服务时间：周一至周五 9:00-18:00（节假日除外）</p>
+      </div>
 
-        <footer>
-            <p>版权所有 © 2023-2024 新疆萌森软件开发工作室</p>
-            <p>统一社会信用代码：91652301MACHE3T54</p>
-            <p>成立日期：2023年4月28日</p>
-        </footer>
+      <footer>
+        <p>版权所有 © 2023-2025 新疆萌森软件开发工作室</p>
+        <p>统一社会信用代码：91652301MACHE3T54</p>
+        <p>成立日期：2023年4月28日</p>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
